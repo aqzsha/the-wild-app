@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import logo from '@/public/logo.png';
+import logo from '@/public/logo_yuru.png';
 
 function Logo() {
   return (
@@ -14,11 +14,9 @@ function Logo() {
         height="60"
         quality={100}
         width="60"
-        alt="The Wild Oasis logo"
+        alt="Yuru Camp logo"
       />
-      <span className="text-xl font-semibold text-primary-100">
-        Camping Tour
-      </span>
+      <span className="text-xl font-semibold text-primary-100">Yuru Camp</span>
     </Link>
   );
 }

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import bg from '@/public/bg_almaty.jpg';
+import bg from '@/public/bg_temp.jpg';
 
 export default function Page() {
   return (
